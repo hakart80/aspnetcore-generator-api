@@ -46,7 +46,7 @@ namespace api
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Generate Random Data API V1, development branch 19:38");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Generate Random Data API V1, development branch 19:46");
             });
 
             var redirectRootToSwagger = new RewriteOptions()
