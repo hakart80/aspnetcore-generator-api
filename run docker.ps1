@@ -1,1 +1,1 @@
-docker run -it --rm -p "8080:80" hakart/generatorapi:ci-27
+winpty docker run --rm -p "8080:80" hakart/generatorapi:ci-27
